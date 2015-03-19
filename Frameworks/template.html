@@ -39,58 +39,61 @@
 	   
 	       <div class="video">
 	   
-	           <video id="video-source" preload="auto"  autoplay loop="loop" muted="muted" volume="0" poster="../images/bg-poster.jpg"> 
+	           <video id="video-source" preload="auto"  autoplay loop="loop" muted="muted" volume="0" poster="assets/images/bg-poster.jpg"> 
 	   
-	               <source src="assets/video/nyc_skyline.webm" type="video/webm"> 
+	               <source src="assets/video/nyc_skyline.webm_" type="video/webm"> 
 	   
-	               <source src="assets/video/nyc_skyline.ogv" type="video/ogg">
+	               <source src="assets/video/nyc_skyline.ogv_" type="video/ogg">
 	   
-	               <source src="assets/video/nyc_skyline.mp4" type="video/mp4"> 
+	               <source src="assets/video/nyc_skyline.mp4_" type="video/mp4"> 
 	   
 	               Video not supported                                 
 	   
 	           </video>
 	   
-	           <div class="filter"></div>
+	        <!--   <div class="filter"></div>-->
 	   
 	       </div>
 	   
 	       <div class="container">
-			   <h2>Te presentamos MetLife Click!</h2>
 			   
-			   <p class="intro">El servicio que MetLife te ofrece para que pueda consultar de manera segura tu información las 24 horas desde cualquier lugar en el que te encuentres.</p>
+			 <div class="col-md-9">  
+				 <h2>Te presentamos MetLife Click!</h2>
+				   
+				   <p class="intro">El servicio que MetLife te ofrece para que pueda consultar de manera segura tu información las 24 horas desde cualquier lugar en el que te encuentres.</p>
+			 </div><!--fin col md 9-->
 	   
-	   <div class="col-md-3 .col-md-offset-9 login-form">
-	   	
-	   	<h3>Ingreso de Clientes</h3>
-	   	
-	   	<form method="POST" action="contact-form-submission.php" role="form">
-	   		<div class="col-md-12">
-	   	        <label>RUT</label>
-	   	        <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
-	   	    </div>
-	   	                       
-	   	    <div class="col-md-12">
-	   	         <label>Clave</label>
-	   	         <input type="password" name="password" id="input2" placeholder="" class="form-control">
-	   	    </div>
-	   											
-	   	    <div class="col-md-12">
-	   	        <input type="hidden" name="save" value="contact"> 
-	   	        <button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
-	   	    </div>
-	   	</form>
-	   	
-	   	<a href="#">¿Olvidaste tu clave?</a>
-	   	<a href="#">¿Todavía no tienes clave?</a>
-	   	
-	   	<div class="col-md-12 footer-form">
-	   		<a href="#">Si aún no eres cliente Metlife, regístrate aquí.</a>
-	   	</div><!--fin col 12-->
-	   	
-	   </div><!--fin login form-->
+		   <div class="col-md-3 col-md-offset-9 login-form">
+		   	
+		   	<h3>Ingreso de Clientes</h3>
+		   	
+		   	<form method="POST" action="contact-form-submission.php" role="form">
+		   		<div class="col-md-12">
+		   	        <label>RUT</label>
+		   	        <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
+		   	    </div>
+		   	                       
+		   	    <div class="col-md-12">
+		   	         <label>Clave</label>
+		   	         <input type="password" name="password" id="input2" placeholder="" class="form-control">
+		   	    </div>
+		   											
+		   	    <div class="col-md-12">
+		   	        <input type="hidden" name="save" value="contact"> 
+		   	        <button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
+		   	    </div>
+		   	</form>
+		   	
+		   	<a href="#">¿Olvidaste tu clave?</a>
+		   	<a href="#">¿Todavía no tienes clave?</a>
+		   	
+		   	<div class="col-md-12 footer-form">
+		   		<a href="#">Si aún no eres cliente Metlife, regístrate aquí.</a>
+		   	</div><!--fin col 12-->
+		   	
+		   </div><!--fin login form-->
 	   
-	         
+	        
 	   
 	       </div><!--fin container-->
 	   
@@ -99,48 +102,6 @@
 
 
 
-	<div class="video">
-		<div class="container">
-			
-		
-			<h2>Te presentamos MetLife Click!</h2>
-			
-			<p>El servicio que MetLife te ofrece para que pueda consultar de manera segura
-			tu información las 24 horas desde cualquier lugar en el que te encuentres.</p>
-			
-			<div class="col-md-3 .col-md-offset-9 login-form">
-				
-				<h3>Ingreso de Clientes</h3>
-				
-				<form method="POST" action="contact-form-submission.php" role="form">
-					<div class="col-md-12">
-				        <label>RUT</label>
-				        <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
-				    </div>
-				                       
-				    <div class="col-md-12">
-				         <label>Clave</label>
-				         <input type="password" name="password" id="input2" placeholder="" class="form-control">
-				    </div>
-														
-				    <div class="col-md-12">
-				        <input type="hidden" name="save" value="contact"> 
-				        <button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
-				    </div>
-				</form>
-				
-				<a href="#">¿Olvidaste tu clave?</a>
-				<a href="#">¿Todavía no tienes clave?</a>
-				
-				<div class="col-md-12 footer-form">
-					<a href="#">Si aún no eres cliente Metlife, regístrate aquí.</a>
-				</div><!--fin col 12-->
-				
-			</div><!--fin login form-->
-		
-		</div><!--fin container-->
-		
-	</div><!--fin video-->
      <div class="container">    
     
     	<h3>Con Metlie podrás:</h3>
