@@ -1,0 +1,88 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+ul, ol {
+	list-style-type: none;
+}
+h2 {
+    color: #007cc3;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 0px;
+}
+
+/* @group Header */
+
+#header {
+	height: 85px;
+}
+a.navbar-brand {
+	background-image: url("../images/logo-metlife.png");
+	background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 175px;
+    margin-top: 15px;
+}
+
+/* @end */
+
+/* @group Card Video */
+
+.card-background {
+	text-shadow: none;
+	box-shadow: none;
+}
+.card {
+	border-radius: 0px;
+}
+.card-background .video {
+	border-radius: 0px;
+	min-height: 100%;
+}
+.video video {
+	border-radius: 0px
+}
+/* @end */
+
+.card .container {
+    position: absolute;
+    top: 0;
+    padding-top: 76px;
+}
+.container p.intro {
+    color: #555;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+    width: 68%;
+}
+
+.login-form {
+    background-color: #459dcb;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h3 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+}
+.login-form label {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
