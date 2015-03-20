@@ -221,10 +221,7 @@ footer p.telefono {
 .modal-backdrop.in {
     opacity: 0.7;
 }
-.modal-dialog{
-    margin: 30px auto;
-    width: 580px;
-}
+
 
 .modal-body p {
     color: #595959;
