@@ -216,3 +216,36 @@ footer p.telefono {
 /* @end */
 
 
+/* @group Modal */
+.modal-backdrop.in {
+    opacity: 0.7;
+}
+.modal-dialog.recupera-clave {
+    margin: 30px auto;
+    width: 580px;
+}
+.modal-body p {
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+}
+.modal-body form {
+    margin-top: 30px;
+}
+.modal-body label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.modal-body .form-control {
+    border-color: #429fd4;
+}
+.modal-body .btn.btn-primary {
+    font-weight: 400;
+}
+/* @end */
+
+
+
+

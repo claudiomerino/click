@@ -71,7 +71,7 @@
 			   	
 			   	<h3>Ingreso de Clientes</h3>
 			   	
-			   	<form method="POST" action="contact-form-submission.php" role="form">
+			   	<form method="POST" action="" role="form">
 			   		<div class="col-md-12">
 			   	        <label>RUT</label>
 			   	        <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
@@ -85,7 +85,7 @@
 			   	    <div class="col-md-12">
 			   	        <input type="hidden" name="save" value="contact"> 
 			   	        <button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
-			   	        <a href="#" class="link-login">¿Olvidaste tu clave?</a>
+			   	        <a href="#" class="link-login"  data-toggle="modal" data-target="#recupera-clave">¿Olvidaste tu clave?</a>
 			   	        <a href="#" class="link-login">¿Todavía no tienes clave?</a>
 			   	    </div>
 			   	</form>
@@ -178,6 +178,58 @@
 		</div><!--fin col 4-->
 	</div><!--fin container-->
 </footer><!--fin footer-->
+
+
+
+
+<!-- Modal recuperar contraseña-->
+   
+   <div class="modal fade" id="recupera-clave" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+   
+     <div class="modal-dialog recupera-clave">
+   
+       <div class="modal-content">
+   
+         <div class="modal-header">
+   
+           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    
+         </div>
+   
+         <div class="modal-body">
+         	<div class="col-md-8 col-md-offset-2">
+   
+	           <p>Para obtener tu clave debes ingresar tu RUT.</p>
+	           
+	           <form method="POST" action="" role="form">
+	           	<div class="col-md-12">
+	                   <label>RUT:</label>
+	                   <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
+	               </div>
+	                           										
+	               <div class="col-md-10 col-md-offset-2">
+	                   <input type="hidden" name="save" value="contact"> 
+	                   <button type="submit" class="btn btn-primary">Ingresa tu RUT</button>
+	                    
+	               </div>
+	           </form>
+	        </div><!--fin offset 3-->   
+   
+         </div>
+   
+         <div class="modal-footer">
+   
+           <!--<button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+   
+           <button type="button" class="btn btn-info btn-simple">Save</button>-->
+   
+         </div>
+   
+       </div>
+   
+     </div>
+   
+   </div>
 
 
 </body>
