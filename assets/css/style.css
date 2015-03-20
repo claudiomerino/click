@@ -110,11 +110,12 @@ a.navbar-brand {
 .div-input {
 	padding-right: 0px;
 }
-.form-control {
+.form-control, .btn.dropdown-toggle {
     height: 35px;
     width: 250px;
     margin-bottom: 25px;
     float: right;
+    border-radius: 6px;
 }
 button.btn-primary {
     background-color: #74af33;
@@ -220,10 +221,11 @@ footer p.telefono {
 .modal-backdrop.in {
     opacity: 0.7;
 }
-.modal-dialog.recupera-clave {
+.modal-dialog{
     margin: 30px auto;
     width: 580px;
 }
+
 .modal-body p {
     color: #595959;
     font-size: 14px;
@@ -232,6 +234,7 @@ footer p.telefono {
 .modal-body form {
     margin-top: 30px;
 }
+
 .modal-body label {
     color: #333;
     font-size: 14px;
@@ -243,6 +246,55 @@ footer p.telefono {
 }
 .modal-body .btn.btn-primary {
     font-weight: 400;
+}
+.modal-dialog.registro form {
+	margin: 0px;
+}
+.modal-header p.nota {
+	font-size: 14px;
+	font-style: italic;
+	color: #777;
+}
+.registro .form-control {
+    margin-bottom: 15px;
+}
+.caret::before {
+    border-left: 1px solid #429fd4;
+    content: "";
+    left: -10px;
+    position: relative;
+    top: -12px;
+}
+.btn .caret {
+    border-top-color: #429fd4;
+}
+.btn-group.select .btn {
+    border-color: #429fd4;
+}
+.btn-group.select .dropdown-menu {
+    border-color: #429fd4;
+    margin-top: -16px;
+    min-width: 100%;
+}
+.registro button.btn-primary {
+    width: auto;
+    padding: 12px 25px;
+}
+.registro .btn-group.select {
+    float: right;
+    width: 250px;
+}
+.contenedor-check {
+    float: right;
+    width: 250px;
+}
+.registro p.area {
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.registro p.nota {
+    clear: both;
 }
 /* @end */
 

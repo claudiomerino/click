@@ -94,7 +94,7 @@
 			    	
 			   </div><!--fin col-12-->
 			   <div class="col-md-12 footer-form">
-			   		<p>Si aún no eres cliente Metlife, <a href="#">Regístrate aquí.</a></p>
+			   		<p>Si aún no eres cliente Metlife, <a href="#" data-toggle="modal" data-target="#registro">Regístrate aquí.</a></p>
 			   </div><!--fin footer form-->
 	       </div><!--fin login form-->
 	        
@@ -219,9 +219,7 @@
    
          <div class="modal-footer">
    
-           <!--<button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
-   
-           <button type="button" class="btn btn-info btn-simple">Save</button>-->
+           
    
          </div>
    
@@ -229,7 +227,109 @@
    
      </div>
    
-   </div>
+   </div><!--fin modal recuperar clave-->
+   
+   
+   
+   <!-- Modal registro-->
+      
+      <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      
+        <div class="modal-dialog registro">
+      
+          <div class="modal-content">
+      
+            <div class="modal-header">
+      
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel">Registro</h4>
+              <p class="nota">Todos los campos son obligatorios</p>
+       
+            </div>
+      
+            <div class="modal-body">
+            	<div class="col-md-10 col-md-offset-1">
+       
+   	           <form method="POST" action="" role="form">
+   	           	<div class="col-md-12">
+   	                   <label>Nombres:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-nombre" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Apellido Paterno:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-apellido-paterno" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Apellido materno:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-apellido-materno" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>R.U.T.:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-rut-registro" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Genero:</label>
+   	                   <div class="contenedor-check">
+	   	                   <label class="checkbox" for="checkbox1">
+	   	                       <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+	   	                       Femenino
+	   	                   </label>
+	   	                   <label class="checkbox" for="checkbox1">
+	   	                       <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+	   	                        Masculino
+	   	                   </label>
+   	                   </div><!--fin contenedor check-->
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Estado Civil:</label>
+   	                   <select name="huge" class="selectpicker" data-style="form-control" data-menu-style="">
+   	                      
+   	                          <option disabled selected> </option>
+   	                      
+   	                          <option value="soltero">Soltero </option>
+   	                          <option value="casado">Casado</option>
+   	                          <option value="viudo">Casado</option>
+   	                      
+   	                      </select>
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Fecha de nacimiento:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-nacimiento" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Email:</label>
+   	                   <input type="email" value="" placeholder="" class="form-control" name="Nombres" id="input-email" />
+   	             </div>
+   	             <div class="col-md-12">
+   	                   <label>Teléfono:</label>
+   	                   <input type="text" value="" placeholder="" class="form-control" name="Nombres" id="input-rut-registro" />
+   	                   <p class="area">+56</p>
+   	                   <p class="nota">Ej: +56 9 8647 6474</p>
+   	             </div>
+   	             
+   	             
+   	                           										
+   	               <div class="col-md-10 col-md-offset-2">
+   	                   <input type="hidden" name="save" value="contact"> 
+   	                   <button type="submit" class="btn btn-primary">Registrarme</button>
+   	                    
+   	               </div>
+   	           </form>
+   	        </div><!--fin offset 3-->   
+      
+            </div>
+      
+            <div class="modal-footer">
+      
+              
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      
+      </div><!--fin modal recuperar clave-->
 
 
 </body>
