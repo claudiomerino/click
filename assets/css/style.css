@@ -24,6 +24,13 @@ h3 {
 	font-size: 18px;
 	color: #333;
 }
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 
 /* @group Header */
 
@@ -149,6 +156,7 @@ button.btn-primary:hover {
 .boxes  {
 	text-align: center;
 	margin-top: 20px;
+	padding-bottom: 60px;
 }
 .boxes h3 {
     color: #333;
@@ -168,9 +176,43 @@ footer {
     background-color: #114477;
     display: block;
     height: 100%;
+    padding-bottom: 70px;
+    padding-top: 30px;
     width: 100%;
 }
-
+footer h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+footer ul {
+	padding-left: 0px;
+}
+footer li {
+    color: #38aae9;
+}
+footer a {
+    color: #38aae9;
+    font-weight: 600;
+}
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+footer p.telefono {
+    background-image: url("../images/ico-fono.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    font-family: "open sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding-left: 32px;
+}
 /* @end */
 
 
