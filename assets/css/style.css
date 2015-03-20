@@ -10,12 +10,19 @@ em {
 ul, ol {
 	list-style-type: none;
 }
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
 h2 {
     color: #007cc3;
     font-size: 32px;
     font-weight: 600;
     text-shadow: none;
     margin-top: 0px;
+}
+h3 {
+	font-size: 18px;
+	color: #333;
 }
 
 /* @group Header */
@@ -46,8 +53,9 @@ a.navbar-brand {
 	border-radius: 0px;
 }
 .card-background .video {
-	border-radius: 0px;
-	min-height: 100%;
+	border-radius: 0;
+    height: 100%;
+    max-height: 100%;
 }
 .video video {
 	border-radius: 0px
@@ -64,25 +72,105 @@ a.navbar-brand {
     font-size: 16px;
     font-weight: normal;
     text-shadow: none;
-    width: 68%;
+
 }
 
+/* @group login Form */
+
 .login-form {
-    background-color: #459dcb;
+    background-color: rgba(25,137,201,0.8);
     border-radius: 5px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0px;
 }
 
 .login-form h3 {
     color: #fff;
     font-size: 22px;
     text-align: center;
+    margin-bottom: 25px;
 }
 .login-form label {
     color: #fff;
     float: left;
     font-size: 14px;
     font-weight: 100;
+    margin-top: 5px;
 }
+.div-label {
+    padding-left: 0;
+}
+.div-input {
+	padding-right: 0px;
+}
+.form-control {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 25px;
+    float: right;
+}
+button.btn-primary {
+    background-color: #74af33;
+    border-color: #74af33;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 25px;
+}
+button.btn-primary:hover {
+	 background-color: #74af33;
+    border-color: #74af33;
+    color: #fff;
+} 
+.login-form a.link-login {
+    clear: both;
+    float: right;
+    margin-bottom: 15px;
+}
+.footer-form {
+    background-color: rgba(25,137,201,0.6);
+    height: 50px;
+    padding: 15px 10px 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.footer-form p {
+	color: #fff;
+	font-size: 14px;
+}
+.footer-form a {
+	font-weight: 600;
+}
+
+/* @end */
+
+.boxes  {
+	text-align: center;
+	margin-top: 20px;
+}
+.boxes h3 {
+    color: #333;
+    font-family: "open sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.boxes p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+/* @group Footer */
+
+footer {
+    background-color: #114477;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* @end */
 
 
