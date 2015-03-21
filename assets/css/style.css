@@ -1,156 +1,43 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-strong {
-	font-weight: bold;
-}
-em {
-	font-style: italic;
-}
-ul, ol {
-	list-style-type: none;
-}
-h1, h2, h3, h4 {
-	font-family: 'Open Sans', sans-serif;
-}
-h2 {
-    color: #007cc3;
-    font-size: 32px;
-    font-weight: 600;
-    text-shadow: none;
-    margin-top: 0px;
-}
-h3 {
-	font-size: 18px;
-	color: #333;
-}
-a {
-	font-family: 'Open Sans', sans-serif;
-}
-p {
-	font-family: 'Open Sans', sans-serif;
-}
+body { font-family: 'Open Sans', sans-serif; }
+strong {font-weight: bold;}
+em {font-style: italic;}
+ul, ol {list-style-type: none;}
+h1, h2, h3, h4 {font-family: 'Open Sans', sans-serif;}
+h2 {color: #007cc3;font-size: 32px;font-weight: 600;text-shadow: none;margin-top: 0px;}
+h3 {font-size: 18px;color: #333;}
+a {font-family: 'Open Sans', sans-serif;}
+p {font-family: 'Open Sans', sans-serif;}
 
 
 /* @group Header */
 
-#header {
-	height: 85px;
-}
-a.navbar-brand {
-	background-image: url("../images/logo-metlife.png");
-	background-repeat: no-repeat;
-    display: block;
-    height: 50px;
-    text-indent: -9999px;
-    vertical-align: middle;
-    width: 175px;
-    margin-top: 15px;
-}
+#header {height: 85px;}
+a.navbar-brand {background-image: url("../images/logo-metlife.png"); background-repeat: no-repeat; display: block; height: 50px; text-indent: -9999px; vertical-align: middle; width: 175px; margin-top: 15px;}
 
 /* @end */
 
 /* @group Card Video */
 
-.card-background {
-	text-shadow: none;
-	box-shadow: none;
-}
-.card {
-	border-radius: 0px;
-}
-.card-background .video {
-	border-radius: 0;
-    height: 100%;
-    max-height: 100%;
-}
-.video video {
-	border-radius: 0px
-}
-/* @end */
+.login-background {background: url("../images/bg-poster.jpg") center top no-repeat; height: 530px; padding-top: 70px;}
 
-.card .container {
-    position: absolute;
-    top: 0;
-    padding-top: 76px;
-}
-.container p.intro {
-    color: #555;
-    font-size: 16px;
-    font-weight: normal;
-    text-shadow: none;
-
-}
+.container p.intro { color: #555; font-size: 16px; font-weight: normal; text-shadow: none; }
 
 /* @group login Form */
 
-.login-form {
-    background-color: rgba(25,137,201,0.8);
-    border-radius: 5px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 0px;
-}
+.login-form { background-color: rgba(25,137,201,0.8); border-radius: 5px; box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2); padding: 0px; }
 
-.login-form h3 {
-    color: #fff;
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-.login-form label {
-    color: #fff;
-    float: left;
-    font-size: 14px;
-    font-weight: 100;
-    margin-top: 5px;
-}
-.div-label {
-    padding-left: 0;
-}
-.div-input {
-	padding-right: 0px;
-}
-.form-control, .btn.dropdown-toggle {
-    height: 35px;
-    width: 250px;
-    margin-bottom: 25px;
-    float: right;
-    border-radius: 6px;
-}
-button.btn-primary {
-    background-color: #74af33;
-    border-color: #74af33;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    opacity: 1;
-    width: 100%;
-    margin-bottom: 25px;
-}
-button.btn-primary:hover {
-	 background-color: #74af33;
-    border-color: #74af33;
-    color: #fff;
-} 
-.login-form a.link-login {
-    clear: both;
-    float: right;
-    margin-bottom: 15px;
-}
-.footer-form {
-    background-color: rgba(25,137,201,0.6);
-    height: 50px;
-    padding: 15px 10px 5px;
-    text-align: center;
-    margin-top: 5px;
-}
-.footer-form p {
-	color: #fff;
-	font-size: 14px;
-}
-.footer-form a {
-	font-weight: 600;
-}
+.login-form h3 { color: #fff; font-size: 22px; text-align: center; margin-bottom: 25px; }
+.login-form label {color: #fff; float: left; font-size: 14px; font-weight: 100; margin-top: 5px;}
+.div-label { padding-left: 0; }
+.div-input {padding-right: 0px;}
+.form-control, .btn.dropdown-toggle {height: 35px; width: 250px; margin-bottom: 25px; float: right; border-radius: 6px;}
+button.btn-primary { background-color: #74af33; border-color: #74af33; color: #fff; font-size: 16px; font-weight: 600; opacity: 1; width: 100%; margin-bottom: 25px; }
+button.btn-primary:hover { background-color: #74af33; border-color: #74af33; color: #fff; text-decoration: underline;} 
+.login-form a.link-login { clear: both; float: right; margin-bottom: 15px; color: white;}
+.login-form a:hover { text-decoration: underline;}
+.footer-form { background-color: rgba(25,137,201,0.6); height: 50px; padding: 15px 10px 5px; text-align: center; margin-top: 5px;}
+.footer-form p { color: #fff; font-size: 14px; }
+.footer-form a { font-weight: 600;}
 
 /* @end */
 
