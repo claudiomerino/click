@@ -1,0 +1,300 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+ul, ol {
+	list-style-type: none;
+}
+h1, h2, h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: #007cc3;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: none;
+    margin-top: 0px;
+}
+h3 {
+	font-size: 18px;
+	color: #333;
+}
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* @group Header */
+
+#header {
+	height: 85px;
+}
+a.navbar-brand {
+	background-image: url("../images/logo-metlife.png");
+	background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 175px;
+    margin-top: 15px;
+}
+
+/* @end */
+
+/* @group Card Video */
+
+.card-background {
+	text-shadow: none;
+	box-shadow: none;
+}
+.card {
+	border-radius: 0px;
+}
+.card-background .video {
+	border-radius: 0;
+    height: 100%;
+    max-height: 100%;
+}
+.video video {
+	border-radius: 0px
+}
+/* @end */
+
+.card .container {
+    position: absolute;
+    top: 0;
+    padding-top: 76px;
+}
+.container p.intro {
+    color: #555;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+
+}
+
+/* @group login Form */
+
+.login-form {
+    background-color: rgba(25,137,201,0.8);
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+}
+
+.login-form h3 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.login-form label {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.div-label {
+    padding-left: 0;
+}
+.div-input {
+	padding-right: 0px;
+}
+.form-control, .btn.dropdown-toggle {
+    height: 35px;
+    width: 250px;
+    margin-bottom: 25px;
+    float: right;
+    border-radius: 6px;
+}
+button.btn-primary {
+    background-color: #74af33;
+    border-color: #74af33;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 25px;
+}
+button.btn-primary:hover {
+	 background-color: #74af33;
+    border-color: #74af33;
+    color: #fff;
+} 
+.login-form a.link-login {
+    clear: both;
+    float: right;
+    margin-bottom: 15px;
+}
+.footer-form {
+    background-color: rgba(25,137,201,0.6);
+    height: 50px;
+    padding: 15px 10px 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+.footer-form p {
+	color: #fff;
+	font-size: 14px;
+}
+.footer-form a {
+	font-weight: 600;
+}
+
+/* @end */
+
+.boxes  {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 60px;
+}
+.boxes h3 {
+    color: #333;
+    font-family: "open sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.boxes p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+/* @group Footer */
+
+footer {
+    background-color: #114477;
+    display: block;
+    height: 100%;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    width: 100%;
+}
+footer h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+footer ul {
+	padding-left: 0px;
+}
+footer li {
+    color: #38aae9;
+}
+footer a {
+    color: #38aae9;
+    font-weight: 600;
+}
+footer p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+footer p.telefono {
+    background-image: url("../images/ico-fono.png");
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+    font-family: "open sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding-left: 32px;
+}
+/* @end */
+
+
+/* @group Modal */
+.modal-backdrop.in {
+    opacity: 0.7;
+}
+
+
+.modal-body p {
+    color: #595959;
+    font-size: 14px;
+    text-align: center;
+}
+.modal-body form {
+    margin-top: 30px;
+}
+
+.modal-body label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.modal-body .form-control {
+    border-color: #429fd4;
+}
+.modal-body .btn.btn-primary {
+    font-weight: 400;
+}
+.modal-dialog.registro form {
+	margin: 0px;
+}
+.modal-header p.nota {
+	font-size: 14px;
+	font-style: italic;
+	color: #777;
+}
+.registro .form-control {
+    margin-bottom: 15px;
+}
+.caret::before {
+    border-left: 1px solid #429fd4;
+    content: "";
+    left: -10px;
+    position: relative;
+    top: -12px;
+}
+.btn .caret {
+    border-top-color: #429fd4;
+}
+.btn-group.select .btn {
+    border-color: #429fd4;
+}
+.btn-group.select .dropdown-menu {
+    border-color: #429fd4;
+    margin-top: -16px;
+    min-width: 100%;
+}
+.registro button.btn-primary {
+    width: auto;
+    padding: 12px 25px;
+}
+.registro .btn-group.select {
+    float: right;
+    width: 250px;
+}
+.contenedor-check {
+    float: right;
+    width: 250px;
+}
+.registro p.area {
+    float: right;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.registro p.nota {
+    clear: both;
+}
+/* @end */
+
+
+
+
