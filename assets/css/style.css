@@ -31,11 +31,12 @@ a.navbar-brand {background-image: url("../images/logo-metlife.png"); background-
 .form-control, .btn.dropdown-toggle {height: 35px; width: 250px; margin-bottom: 25px; float: right; border-radius: 6px;}
 button.btn-primary { background-color: #74af33; border-color: #74af33; color: #fff; font-size: 16px; font-weight: 600; opacity: 1; width: 100%; margin-bottom: 25px; }
 button.btn-primary:hover { background-color: #74af33; border-color: #74af33; color: #fff; text-decoration: underline;quotes: } 
-.login-form a.link-login { clear: both; float: right; margin-bottom: 15px; color: white;}
 .login-form a:hover { text-decoration: underline;}
-.footer-form { background-color: rgba(25,137,201,0.6); height: 50px; padding: 15px 10px 5px; text-align: center; margin-top: 5px;}
+.footer-form { background-color: rgba(25,137,201,0.6); height: 50px; padding: 5px 10px; text-align: center; margin-top: 5px;}
 .footer-form p { color: #fff; font-size: 14px; }
 .footer-form a { font-weight: 600; color: white;}
+.link-login li{text-align: right; margin-bottom: 15px;}
+.link-login a{color: white;}
 
 /* @end */
 
@@ -81,7 +82,8 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
 
 @media(max-width: 1200px){
     footer p.telefono {font-size: 24px;}
-    .footer-form { padding: 5px 10px; }
+        .form-control, .btn.dropdown-toggle {float: right; width: 80%;}
+    .login-form label { float: left; margin-top: 5px; margin-bottom: 35px;}
 }
 @media(max-width:991px){
     .login-form{ width: 50%; margin: 0 auto;}
@@ -90,5 +92,5 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
     .login-background{padding-top: 20px;}
 }
 @media(max-width:640px){
-    .login-form {width: 100%;}
+    .login-form {width: 80%;}
 }
