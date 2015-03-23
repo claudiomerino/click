@@ -35,27 +35,33 @@
 	<div class="wrapper">
 		<div class="login-background"> 
 	       <div class="container">
-			 	<div class="col-md-8">  
+			 	<div class="col-md-8 col-sm-7">  
 				 	<h2>Te presentamos MetLife Click!</h2>
-				   	<p class="intro">El servicio que MetLife te ofrece para que pueda consultar de manera segura <br>tu información las 24 horas desde cualquier lugar en el que te encuentres.</p>
+				   	<p class="intro">El servicio que MetLife te ofrece para que pueda consultar de manera segura tu información las 24 horas desde cualquier lugar en el que te encuentres.</p>
 			 	</div><!--fin col md 8-->
-	       		<div class="col-md-4 login-form">
+	       		<div class="col-md-4 col-sm-5 login-form">
 			   		<div class="col-md-12">
 			   			<h3>Ingreso de Clientes</h3>
 
-					   	<form method="POST" action="" role="form">
-					   		<div class="col-md-12">
-					   	        <label>RUT</label>
-					   	        <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
+					   	<form method="POST" action="" role="form" class="form-horizontal">
+					   		<div class="form-group">
+					   	        <label class="col-sm-2 control-label" for="rut">RUT:</label>
+					   	   		 <div class="col-sm-10">    
+					   	        	<input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
+					   	   		 </div>     
 					   	    </div>                    
-			   	    		<div class="col-md-12">
-			   	         		<label>Clave</label>
-			   	         		<input type="password" name="password" id="input2" placeholder="" class="form-control">
+			   	    		<div class="form-group">
+			   	         		<label class="col-sm-2 control-label" for="clave">Clave:</label>
+			   	         		<div class="col-sm-10"> 
+			   	         			<input type="password" name="password" id="input2" placeholder="" class="form-control">
+			   	         		</div>
 			   	    		</div>
 			   											
-					   	    <div class="col-md-12">
-					   	        <input type="hidden" name="save" value="contact"> 
-					   	        <button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
+					   	    <div class="form-group">
+					   	    	<div class="col-sm-12">
+					   	        	<input type="hidden" name="save" value="contact"> 
+					   	        	<button type="submit" class="btn btn-primary">Ingresa a tu cuenta</button>
+					   	        	</div><!--fin col sm-12-->
 					   	    </div>
 			   			</form>
 			   			<div class="col-md-12 link-login">
@@ -71,7 +77,7 @@
 	       		</div><!--fin login form-->
 	       </div><!--fin container-->    	   
 	   </div> <!-- end card -->
-	     <div class="container">    
+	     <div class="container hidden-xs">    
 	    	<h3>Con MetLife podrás:</h3>
 	    	<div class="row boxes">
 		    	<div class="col-md-3 col-sm-6">
@@ -106,14 +112,14 @@
 	    </div>   
 	</div>
 	<footer>
-		<div class="container">
+		<div class="container hidden-xs">
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				<h3>Metlife</h3>
 				<ul>
 					<li><a href="#"> Información Corporativa</a></li>
 					<li><a href="#"> Política de Privacidad</a></li>
 					<li><a href="#"> Circular Nº 2131</a></li>
-					<li>PEANUTS c peanuts Worldwide, LLC. </li>
+					<li>PEANUTS &copy; peanuts Worldwide, LLC. </li>
 				</ul>
 			</div><!--fin col 4-->
 			
@@ -138,7 +144,30 @@
 				<a href="#">Encuentra tu Sucursal</a>
 				
 			</div><!--fin col 4-->
-		</div><!--fin container-->
+		</div><!--fin container hidden xs-->
+		
+		
+		<div class="container hidden-sm hidden-md">
+			
+			<div class="col-md-3 col-sm-6 col-md-offset-1 col-xs-12">
+				<p class="telefono">600 390 3000</p>
+				<p>Lunes a Jueves de 9:00 a 18:00hrs.</p>
+				<p>Viernes de 9:00 a 15:00hrs.</p>
+				<a href="#">Encuentra tu Sucursal</a>
+				
+			</div><!--fin col 4-->
+			
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<ul>
+					<li><a href="#"> Información Corporativa</a></li>
+					<li><a href="#"> Política de Privacidad</a></li>
+					<li><a href="#"> Circular Nº 2131</a></li>
+					<li>PEANUTS &copy; peanuts Worldwide, LLC. </li>
+				</ul>
+			</div><!--fin col 4-->
+			
+		</div><!--fin container hidden md-->
+		
 	</footer><!--fin footer-->
 
 <!-- Modal recuperar contraseña-->
