@@ -104,6 +104,9 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
 @media (min-width: 800px) and (max-width: 980px) {
 	.login-background { background-position: left top; }
 }
+@media (min-width: 768px) {
+	.footer-md { display: none;}
+} 
 
 @media (max-width: 980px) {
     .login-form{ margin: 0 auto;}
