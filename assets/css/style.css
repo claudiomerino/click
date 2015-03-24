@@ -69,34 +69,60 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
 .modal-body p { color: #595959; font-size: 14px; text-align: center;}
 .modal-body form { margin-top: 30px;}
 
-.modal-body label {color: #333; font-size: 14px; font-weight: 400; margin-top: 8px;}
+.modal-body label {color: #333; font-size: 14px; font-weight: 600; margin-top: 8px;}
 .modal-body .form-control { border-color: #429fd4;}
 .modal-body .btn.btn-primary {font-weight: 400;}
-.modal-dialog.registro form { margin: 0px;}
+.modal-dialog.registro form { margin: 30px 0 0;}
+.modal-footer { padding-bottom: 30px;}
 .modal-header p.nota {font-size: 14px; font-style: italic; color: #777;}
-.registro .form-control { margin-bottom: 15px;}
+/*.registro .form-control { margin-bottom: 15px;}*/
+.registro .modal-header { padding-bottom: 0px;}
+.registro .modal-body { padding-top: 0px;}
+.registro .form-group {
+    margin-bottom: 15px;
+}
 .caret::before { border-left: 1px solid #429fd4; content: ""; left: -10px; position: relative; top: -12px; }
 .btn .caret { border-top-color: #429fd4;}
+.radio span.icons { margin-top: 8px;}
+.registro .calendar img { float: right; }
+.registro .calendar input { float: left; width: 85%; }
 .btn-group.select .btn { border-color: #429fd4; }
-.btn-group.select .dropdown-menu { border-color: #429fd4; margin-top: -16px; min-width: 100%;}
+.btn-group.select .dropdown-menu { border-color: #429fd4; margin-top: -1px; min-width: 100%;}
 .registro button.btn-primary { width: auto; padding: 12px 25px; }
-.registro .btn-group.select { float: right; width: 250px;}
+.numero, .cod-area { padding-right: 0; }
+.cod-area { padding-left: 0; }
+.cod-chile { padding-left: 0; padding-top: 7px; }
+.numero .nota {font-style: italic; }
+.col-md-12.boton { text-align: center;}
+/*.registro .telefono .cod-area, .registro .telefono .numero {	padding-left: 0px; padding-right: 0px; }*/
+/*.registro .btn-group.select { float: right; width: 250px;}*/
 .contenedor-check { float: right; width: 250px;}
-.registro p.area { float: right; margin-right: 7px; margin-top: 7px;}
-.registro p.nota { clear: both;}
+.registro p.nota { clear: both; text-align: left;}
+label.checkbox { font-weight: 400; }
+.recupera-clave .modal-header h4 { margin-bottom: 25px;}
+.recupera-clave .modal-header p { color: #333; font-size: 14px; margin-bottom: 0px;}
+.recupera-clave .modal-body form { margin-top: 0px;}
+.form-horizontal .control-label { text-align: left; padding-top: 0px; padding-left: 0px; padding-right: 0px;}
+
 /* @end */
 
 
 @media (max-width: 360px) {
 	.container p.intro { font-size: 14px; line-height: 19px; margin-bottom: 160px;}
 	h2 { font-size: 25px; margin-bottom: 10px;}
+	.registro .calendar input { width: 83%; }
 }
 @media (max-width: 480px) {
 	.login-background { background: url("../images/bg-xs.jpg") no-repeat scroll center top / 100% auto rgba(0, 0, 0, 0);
 }
 }
+@media (max-width: 640px) {
+	footer { text-align: center; }
+	p.telefono { width: 200px; margin: 0 auto;}
+}
 @media (min-width: 640px) and (max-width: 640px) {
 	.login-form { width: 80%; }
+	
 }
 @media (min-width: 640px) and (max-width: 768px) {
 	.login-background { background-position: left -100px; }	
@@ -107,6 +133,9 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
 @media (min-width: 768px) {
 	.footer-md { display: none;}
 } 
+@media (max-width: 768px) {
+	.form-horizontal .control-label { padding-left: 15px; }
+}
 
 @media (max-width: 980px) {
     .login-form{ margin: 0 auto;}
@@ -119,6 +148,6 @@ footer p.telefono { background-image: url("../images/ico-fono.png"); background-
 }
 @media (max-width: 1200px) {
     footer p.telefono {font-size: 24px;}
-        .form-control, .btn.dropdown-toggle {float: right; width: 80%;}
+        .form-control, .btn.dropdown-toggle {float: right; }
     .login-form label { float: left; margin-top: 5px;}
 }
