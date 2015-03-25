@@ -141,7 +141,7 @@
 				<p class="telefono">600 390 3000</p>
 				<p>Lunes a Jueves de 9:00 a 18:00hrs.</p>
 				<p>Viernes de 9:00 a 15:00hrs.</p>
-				<a href="#">Encuentra tu Sucursal</a>
+				<a href="#" class="sucursal">Encuentra tu Sucursal</a>
 				
 			</div><!--fin col 4-->
 		</div><!--fin container hidden xs-->
@@ -149,20 +149,20 @@
 		
 		<div class="container footer-md">
 			
-			<div class="col-md-3 col-sm-6 col-md-offset-1 col-xs-12">
+			<div class="col-md-3 col-sm-6 col-md-offset-1 col-xs-12 datos">
 				<p class="telefono">600 390 3000</p>
 				<p>Lunes a Jueves de 9:00 a 18:00hrs.</p>
 				<p>Viernes de 9:00 a 15:00hrs.</p>
-				<a href="#">Encuentra tu Sucursal</a>
+				<a href="#" class="sucursal">Encuentra tu Sucursal</a>
 				
 			</div><!--fin col 4-->
 			
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				<ul>
-					<li><a href="#"> Información Corporativa</a></li>
-					<li><a href="#"> Política de Privacidad</a></li>
-					<li><a href="#"> Circular Nº 2131</a></li>
-					<li>PEANUTS &copy; peanuts Worldwide, LLC. </li>
+					<li class="col-xs-6"><a href="#"> Información Corporativa</a></li>
+					<li class="col-xs-6"><a href="#"> Política de Privacidad</a></li>
+					<li class="col-xs-6"><a href="#"> Circular Nº 2131</a></li>
+					<li class="col-xs-6">PEANUTS &copy; <br>peanuts Worldwide, LLC. </li>
 				</ul>
 			</div><!--fin col 4-->
 			
@@ -220,6 +220,57 @@
      </div>
    
    </div><!--fin modal recuperar clave-->
+   
+   
+   <!-- Modal recuperar contraseña paso 2-->
+      
+      <div class="modal fade" id="recupera-clave" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      
+        <div class="modal-dialog recupera-clave">
+      
+          <div class="modal-content">
+      
+            <div class="modal-header">
+            
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+       <h4 class="modal-title" id="myModalLabel">Obtén tu clave</h4>
+       <p>Para obtener tu clave debes ingresar tu RUT.</p>
+            </div>
+      
+            <div class="modal-body">
+            	<div class="col-md-8 col-md-offset-2">
+      
+   			 <form method="POST" action="" role="form" class="form-horizontal">
+   	           	<div class="form-group">
+   	                   <label class="col-md-2 col-sm-2 control-label" for="rut-obtener-clave">R.U.T.:</label>
+   	                   <div class="col-md-10 col-sm-10"> 
+   	                   <input type="text" value="" placeholder="" class="form-control" name="rut" id="input1" />
+   	                   </div>
+   	               </div>
+   	                           	
+   	               <div class="form-group">						
+   	               		<div class="col-md-10 col-md-offset-2">
+   	                   		<input type="hidden" name="save" value="contact"> 
+   	                   		<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#clavedos">Ingresa tu RUT</button>
+   	                    </div><!--fin-->
+   	               </div>
+   	           </form>
+   	        </div><!--fin offset 3-->   
+      
+            </div>
+      
+            <div class="modal-footer">
+      
+              
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      
+      </div><!--fin modal recuperar clave paso 2-->
+   
    
    
    
